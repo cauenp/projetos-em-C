@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+int n,soma = 0;
+scanf("%d",&n);
+
+for(int i = 1; i <= n; i++){
+    soma+=i;
+}
+printf("%d ", soma);
+    return 0;
+}
+
+
+
+// primeiro laco i=1 
+// soma = 1 (aumenta antes)       
+
+//incrementa entao i = 2
+// soma vai ser i = 2 mais a soma 1 = 3
+
+//i = 3
+// soma = 6
+
+// i = 4
+// soma = 6
+// entao fica i (4)+ soma (6) = 10
+
+// i =5 (ele entra no loop)
+// soma = soma + i
+//        soma = 15
+
