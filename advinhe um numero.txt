@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+
+int nsecreto = 52, chute,tentativas = 0;
+
+
+while( chute != nsecreto){
+scanf("%d",&chute);
+
+if( chute == nsecreto){
+    printf("voce acertou o numero: %d  \n ", nsecreto);
+}
+else if (chute > nsecreto){
+ printf("o numero secreto eh menor\n");
+}
+else {
+ printf("o numero secreto eh maior\n");   
+}
+tentativas++;
+}
+
+printf("tentativas  %d",tentativas);
+
+return 0;
+}
